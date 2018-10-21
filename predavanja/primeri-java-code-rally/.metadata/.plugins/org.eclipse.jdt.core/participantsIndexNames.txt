@@ -1,3 +1,0 @@
-INDEX VERSION 1.126
-C:\Users\vlado\._Personal Data\Prog\ProjectsJava\workspaceCodeRally\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4005633564.index
-\CodeRallyWeb\src
