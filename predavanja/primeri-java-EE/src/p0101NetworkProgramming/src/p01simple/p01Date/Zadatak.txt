@@ -1,0 +1,19 @@
+Program describes a date server that uses connection-oriented TCP sockets. 
+
+The operation allows clients to request the current date and time from
+the server. The server listens to port 6013, although the port could have any
+arbitrary number greater than 1024. When a connection is received, the server
+returns the date and time to the client.
+
+A client communicates with the server by creating a socket and connecting
+to the port on which the server is listening. The client creates a Socket and requests
+a connection with the server at IP address 127.0.0.1 on port 6013. 
+
+The IP address 127.0.0.1 is a special IP address known as the loopback.
+When a computer refers toIP address 127.0.0.1, it is referring to itself.
+This mechanism allows a client and server on the same host to communicate
+using the TCP/IP protocol. The IP address 127.0.0.1 could be replaced with 
+the IP address of another host running the date server. 
+
+In addition to an IP address, an actual host name, such as 
+www.westminstercollege.edu, can be used as well.

@@ -1,0 +1,11 @@
+Port numbers below 1024 as being well known—that is, they provide standard 
+services. Port 17 is known as the quote-of-the-day service. When a client 
+connects to port 17 on a server, the server responds with a quote for that 
+day.
+
+Create server so it delivers a quote of the day. The quotes should be 
+printable ASCII characters and should contain fewer than 512 characters, 
+although multiple lines are allowed. 
+
+Since port 17 is well known and therefore unavailable, have your server 
+listen to port 6017.

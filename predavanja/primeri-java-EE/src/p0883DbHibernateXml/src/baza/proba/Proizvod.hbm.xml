@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping>
+
+	<class name="baza.proba.Proizvod" table="Proizvod">
+
+		<id name="proizvodId" column="ProizvodId">
+			<generator class="native" />
+		</id>
+
+		<property name="naziv">
+			<column name="Naziv" length="45" not-null="false" />
+		</property>
+
+		<property name="kolicina">
+			<column name="Kolicina" not-null="false" />
+		</property>
+
+		<property name="jedinicaMere">
+			<column name="JedinicaMere" length="45" not-null="false" />
+		</property>
+
+	</class>
+</hibernate-mapping>

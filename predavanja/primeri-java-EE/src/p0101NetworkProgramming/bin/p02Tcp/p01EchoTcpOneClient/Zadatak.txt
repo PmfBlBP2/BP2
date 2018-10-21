@@ -1,0 +1,2 @@
+This client/server pair runs a simple TCP socket program as an Echo Server 
+that only allows one client to connect to the server

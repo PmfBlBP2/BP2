@@ -1,0 +1,5 @@
+This server improves on the previous Echo Server since it uses a time out on 
+the server's connection
+TCP socket to continuously check if it should stop the "connection thread" 
+of the server from
+executing.

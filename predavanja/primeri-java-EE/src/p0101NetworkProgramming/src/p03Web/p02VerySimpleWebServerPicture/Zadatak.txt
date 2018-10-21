@@ -1,0 +1,2 @@
+This is a example of a extremely simple web server. 
+The client is a web browser.

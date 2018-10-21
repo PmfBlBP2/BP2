@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><servers>
+  <server auto-publish-setting="2" auto-publish-time="1" hostname="localhost" id="WebSphere Application Server V8.5 Liberty Profile at localhost" looseConfig="true" name="WebSphere Application Server V8.5 Liberty Profile at localhost" runtime-id="WebSphere Application Server V8.5 Liberty Profile" server-type="com.ibm.ws.st.server.v85.was" server-type-id="com.ibm.ws.st.server.v85.was" serverName="defaultServer" start-timeout="30" stop-timeout="15" timestamp="1">
+    <list key="modules" value0="CodeRallyServer::org.eclipse.jst.jee.server:CodeRallyServer::jst.ear::6.0" value1="CodeRallyWeb::org.eclipse.jst.jee.server:CodeRallyWeb::jst.web::3.0"/>
+  </server>
+</servers>

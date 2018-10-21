@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<featureInfo>
+    <feature name="localConnector-1.0">
+    </feature>
+    <feature name="jpa-2.0">
+        <enables>jdbc-4.0</enables>
+        <enables>beanvalidation-1.0</enables>
+        <enables>servlet-3.0</enables>
+        <enables>jndi-1.0</enables>
+        <apiJar>spec/,lib/</apiJar>
+        <apiJar>third-party/,lib/</apiJar>
+        <apiJar>spec/,lib/</apiJar>
+    </feature>
+    <feature name="json-1.0">
+    </feature>
+    <feature name="blueprint-1.0">
+        <apiJar>spec/,lib/</apiJar>
+    </feature>
+    <feature name="serverStatus-1.0">
+    </feature>
+    <feature name="zosTransaction-1.0">
+    </feature>
+    <feature name="restConnector-1.0">
+        <enables>ssl-1.0</enables>
+        <enables>jaxrs-1.1</enables>
+    </feature>
+    <feature name="osgi.jpa-1.0">
+        <enables>jdbc-4.0</enables>
+        <enables>jpa-2.0</enables>
+        <enables>blueprint-1.0</enables>
+        <enables>jndi-1.0</enables>
+    </feature>
+    <feature name="zosSecurity-1.0">
+    </feature>
+    <feature name="sessionDatabase-1.0">
+        <enables>jdbc-4.0</enables>
+        <apiJar>spec/,lib/</apiJar>
+    </feature>
+    <feature name="appSecurity-1.0">
+        <enables>servlet-3.0</enables>
+    </feature>
+    <feature name="jdbc-4.0">
+        <enables>jndi-1.0</enables>
+    </feature>
+    <feature name="ssl-1.0">
+    </feature>
+    <feature name="zosWlm-1.0">
+    </feature>
+    <feature name="beanvalidation-1.0">
+        <apiJar>spec/,lib/</apiJar>
+    </feature>
+    <feature name="jsf-2.0">
+        <enables>beanvalidation-1.0</enables>
+        <enables>jsp-2.2</enables>
+        <apiJar>spec/,lib/</apiJar>
+        <apiJar>spec/,lib/</apiJar>
+        <apiJar>spec/,lib/</apiJar>
+        <apiJar>spec/,lib/</apiJar>
+        <apiJar>spec/,lib/</apiJar>
+        <apiJar>spec/,lib/</apiJar>
+        <apiJar>spec/,lib/</apiJar>
+        <apiJar>spec/,lib/</apiJar>
+    </feature>
+    <feature name="jsp-2.2">
+        <enables>servlet-3.0</enables>
+        <apiJar>spec/,lib/</apiJar>
+        <apiJar>spec/,lib/</apiJar>
+        <apiJar>spec/,lib/</apiJar>
+    </feature>
+    <feature name="servlet-3.0">
+        <apiJar>spec/,lib/</apiJar>
+    </feature>
+    <feature name="jaxrs-1.1">
+        <enables>json-1.0</enables>
+        <enables>servlet-3.0</enables>
+        <apiJar>spec/,lib/</apiJar>
+        <apiJar>spec/,lib/</apiJar>
+        <apiJar>spec/,lib/</apiJar>
+    </feature>
+    <feature name="monitor-1.0">
+    </feature>
+    <feature name="jndi-1.0">
+        <apiJar>spec/,lib/</apiJar>
+    </feature>
+    <feature name="wab-1.0">
+        <enables>blueprint-1.0</enables>
+    </feature>
+</featureInfo>

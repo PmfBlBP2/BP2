@@ -1,0 +1,2 @@
+This client/server pair runs a simple UDP socket program as an Echo/Uppercase Server that only
+allows the client to send one message to the server.

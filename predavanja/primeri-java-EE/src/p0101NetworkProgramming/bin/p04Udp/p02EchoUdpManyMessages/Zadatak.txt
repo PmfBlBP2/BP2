@@ -1,0 +1,1 @@
+This client sends multiple messages to the Echo/Uppercase Server to check if packets get dropped.
