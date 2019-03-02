@@ -1,8 +1,0 @@
-{
-   "name": "green_spaceship",
-   "acceleration":"100",
-   "weight":"400",
-   "armor":"0",
-   "traction":"0",
-   "turning":"4000"
-}

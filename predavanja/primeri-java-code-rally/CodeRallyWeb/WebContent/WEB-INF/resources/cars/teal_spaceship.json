@@ -1,8 +1,0 @@
-{
-   "name": "teal_spaceship",
-   "acceleration":"500",
-   "weight":"100",
-   "armor":"0",
-   "traction":"100",
-   "turning":"1000"
-}

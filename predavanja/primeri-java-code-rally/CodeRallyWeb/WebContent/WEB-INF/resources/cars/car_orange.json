@@ -1,8 +1,0 @@
-{
-   "name": "car_orange",
-   "acceleration":"500",
-   "weight":"100",
-   "armor":"100",
-   "traction":"100",
-   "turning":"100"
-}
