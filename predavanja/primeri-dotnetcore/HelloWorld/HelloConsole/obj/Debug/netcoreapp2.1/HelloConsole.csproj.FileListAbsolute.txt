@@ -1,0 +1,11 @@
+D:\Course\PmfBlBP2--BP2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsole\bin\Debug\netcoreapp2.1\HelloConsole.deps.json
+D:\Course\PmfBlBP2--BP2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsole\bin\Debug\netcoreapp2.1\HelloConsole.runtimeconfig.json
+D:\Course\PmfBlBP2--BP2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsole\bin\Debug\netcoreapp2.1\HelloConsole.runtimeconfig.dev.json
+D:\Course\PmfBlBP2--BP2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsole\bin\Debug\netcoreapp2.1\HelloConsole.dll
+D:\Course\PmfBlBP2--BP2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsole\bin\Debug\netcoreapp2.1\HelloConsole.pdb
+D:\Course\PmfBlBP2--BP2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsole\obj\Debug\netcoreapp2.1\HelloConsole.csprojAssemblyReference.cache
+D:\Course\PmfBlBP2--BP2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsole\obj\Debug\netcoreapp2.1\HelloConsole.csproj.CoreCompileInputs.cache
+D:\Course\PmfBlBP2--BP2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsole\obj\Debug\netcoreapp2.1\HelloConsole.AssemblyInfoInputs.cache
+D:\Course\PmfBlBP2--BP2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsole\obj\Debug\netcoreapp2.1\HelloConsole.AssemblyInfo.cs
+D:\Course\PmfBlBP2--BP2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsole\obj\Debug\netcoreapp2.1\HelloConsole.dll
+D:\Course\PmfBlBP2--BP2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsole\obj\Debug\netcoreapp2.1\HelloConsole.pdb

@@ -1,5 +1,5 @@
-CREATE DATABASE  IF NOT EXISTS `filmovi_bp2_2019` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci */;
-USE `filmovi_bp2_2019`;
+CREATE DATABASE  IF NOT EXISTS `filmovi_2019` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci */;
+USE `filmovi_2019`;
 -- MySQL dump 10.13  Distrib 5.6.17, for Win64 (x86_64)
 --
 -- Host: localhost    Database: var_filmovi
