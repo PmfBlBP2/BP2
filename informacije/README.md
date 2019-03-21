@@ -10,7 +10,7 @@
 
 ## План и програм курса
 
-* **[План реализације наставе у 2018/19 години](Plan izvodjenja nastave PMO M 2019.pdf){:target="_blank"}**
+* **[План реализације наставе у 2018/19 години](Plan izvodjenja nastave Baze podataka 2 2019.pdf){:target="_blank"}**
 
 ## Статусне информације  
 
