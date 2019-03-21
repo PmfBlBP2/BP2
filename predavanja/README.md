@@ -50,6 +50,8 @@
 
     - [Примјери SQL](https://github.com/PmfBlBP2/BP2/tree/master/predavanja/primeri-SQL){:target="_blank"}
 
+    - [Примјери C#](https://github.com/PmfBlBP2/BP2/tree/master/predavanja/primeri-dotnetcore){:target="_blank"}
+
 ---
 
 [БП2](../README.md)
