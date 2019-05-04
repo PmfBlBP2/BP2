@@ -11,7 +11,7 @@ namespace HelloConsoleEF
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-      optionsBuilder.UseMySQL("server=localhost;port=3306;database=skole-2019;user=root;password=");
+      optionsBuilder.UseMySQL("server=localhost;port=3306;database=skole-2019;user=root;password=mysqlroot");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

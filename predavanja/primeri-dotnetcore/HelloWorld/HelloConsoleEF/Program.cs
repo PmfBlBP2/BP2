@@ -33,6 +33,7 @@ namespace HelloConsoleEF
             Console.WriteLine("4. Dodavanje skole");
             Console.WriteLine("x. Izlaz");
         }
+
         static void Main(string[] args)
         {
             while (true)
@@ -45,13 +46,13 @@ namespace HelloConsoleEF
                 {
                     case '1':
                         Console.WriteLine("Prikaz podataka iz baze:");
-                        IspisiPodatke();
+                        SkoleNaKonzolu();
                         break;
                     case '2':
                         Console.WriteLine("Unesite ime grada.");
                         string imeGrada = Console.ReadLine();
                         Console.WriteLine($"\nSkole iz grada {imeGrada} su: \n");
-                        IspisiSkole(imeGrada);
+                        SkoleNaKonzolu(imeGrada);
                         break;
                     case '3': 
                         Console.WriteLine("Unesite ime grada.");
@@ -75,7 +76,7 @@ namespace HelloConsoleEF
             }
         }
 
-        private static void IspisiPodatke()
+        private static void SkoleNaKonzolu()
         {
          
             using (var context = new ProbaContext())
@@ -93,7 +94,7 @@ namespace HelloConsoleEF
 
         }
 
-        private static void IspisiSkole(string imeGrada)
+        private static void SkoleNaKonzolu(string imeGrada)
         {
             using (var context = new ProbaContext())
             {

@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloConsoleEF", "HelloCons
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloConsole", "HelloConsole\HelloConsole.csproj", "{2FAD02D2-9F4D-4489-8D41-326F2CDDBB62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWeb", "HelloWeb\HelloWeb.csproj", "{DF3E7A30-AA10-42BB-A759-5EAC2ED8235C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWeb", "HelloWeb\HelloWeb.csproj", "{DF3E7A30-AA10-42BB-A759-5EAC2ED8235C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWebMvcAdo", "HelloWebMvcAdo\HelloWebMvcAdo.csproj", "{DCE9D1C3-8DA5-4C62-99FD-3D76416C2685}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWebMvc", "HelloWebMvc\HelloWebMvc.csproj", "{9BDA16AC-35E3-4A6A-A9AD-8C6A682D425E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{DCE9D1C3-8DA5-4C62-99FD-3D76416C2685}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCE9D1C3-8DA5-4C62-99FD-3D76416C2685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCE9D1C3-8DA5-4C62-99FD-3D76416C2685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BDA16AC-35E3-4A6A-A9AD-8C6A682D425E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDA16AC-35E3-4A6A-A9AD-8C6A682D425E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDA16AC-35E3-4A6A-A9AD-8C6A682D425E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDA16AC-35E3-4A6A-A9AD-8C6A682D425E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
