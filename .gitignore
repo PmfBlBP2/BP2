@@ -994,3 +994,4 @@ hs_err_pid*
 /predavanja/primeri-dotnetcore/HelloWorld/HelloWebMvcEF/obj/HelloWebMvcEF.csproj.nuget.g.props
 /predavanja/primeri-dotnetcore/HelloWorld/HelloWebMvcEF/obj/HelloWebMvcEF.csproj.nuget.g.targets
 /predavanja/primeri-dotnetcore/HelloWorld/HelloWebMvcEF/obj/project.assets.json
+/predavanja/primeri-dotnetcore/HelloWorld/HelloWebMvcEF/obj/Debug/netcoreapp2.1/Razor/Views/Gradovi/Create.g.cshtml.cs
