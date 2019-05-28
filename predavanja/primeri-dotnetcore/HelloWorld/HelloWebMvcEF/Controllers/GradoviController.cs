@@ -1,13 +1,9 @@
-
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+using HelloWebMvcEF.Data;
+using HelloWebMvcEF.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using HelloWebMvcEF.Models;
-using HelloWebMvcEF.Data;
-using Microsoft.EntityFrameworkCore;
 
 namespace HelloWebMvcEF.Controllers
 {
@@ -42,6 +38,30 @@ namespace HelloWebMvcEF.Controllers
                 return NotFound();
             }
 
+            return View(grad);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(
+        [Bind("Id", "Naziv")] Grad grad)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    _context.Add(grad);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+            }
+            catch (DbUpdateException /* ex */)
+            {
+                //Log the error (uncomment ex variable name and write a log.
+                ModelState.AddModelError("", "Greška pri dodavanju grada. " +
+                    "Pokušajte ponovo, a ako problem " +
+                    "ne bude rešen zovite administratora sistema.");
+            }
             return View(grad);
         }
     }

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<HelloWebMvcEF.Models.Grad>
+﻿@model HelloWebMvcEF.Models.Grad
 @{
     ViewData["Title"] = "Detalji grada";
 }
@@ -8,17 +8,36 @@
 <div>
     <h4>Grad</h4>
     <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Id)
-        </dt>
-    </dl>
-    <dl class="row">
-        <dt class="col-sm-10">
-            @Html.DisplayNameFor(model => model.Naziv)
-        </dt>
-    </dl>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Naziv)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Naziv)
+    </dd>
+    <hr />
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Skole)
+    </dt>
+    <dd class="col-sm-10">
+        <table class="table">
+            <tr>
+                <th>Naziv</th>
+                <th>Adresa</th>
+            </tr>
+            @foreach (var item in Model.Skole)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Naziv)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Adresa)
+                    </td>
+                </tr>
+            }
+        </table>
+    </dd>
 </div>
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Povratak na spisak gradova</a>
 </div>
